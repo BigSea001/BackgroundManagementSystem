@@ -5,9 +5,10 @@
         <i class="el-icon-setting"></i>自述
       </el-menu-item>
       <el-submenu index="2">
-        <template slot="title"><i class="el-icon-menu"></i>表格</template>
-        <el-menu-item index="BaseFrom">基础表格</el-menu-item>
-        <el-menu-item index="vuetable">Vue表格组件</el-menu-item>
+        <template slot="title"><i class="el-icon-menu"></i>首页</template>
+        <el-menu-item index="HomePageBanner">头部banner</el-menu-item>
+        <el-menu-item index="Home2">头部table</el-menu-item>
+        <el-menu-item index="HomeHot">热点文章</el-menu-item>
       </el-submenu>
       <el-submenu index="3">
         <template slot="title"><i class="el-icon-date"></i>表单</template>

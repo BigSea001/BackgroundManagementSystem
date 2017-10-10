@@ -43,10 +43,10 @@
           password: this.ruleForm.password,
           manager: true
         }).then(response => {
-          if (response.body.resultMess === 'ok') {
+          if (response.body.error === '0') {
             this.$router.push('Home');
           } else {
-            this.$message.error('登录失败!');
+            this.$message.error(response.body.msg);
           }
         },error => {
           this.$message.error('网络有问题!');

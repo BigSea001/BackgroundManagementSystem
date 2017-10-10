@@ -18,7 +18,7 @@
   export default {
     data() {
       return {
-        name: 'linxin'
+        name: '大海'
       }
     },
     computed:{
